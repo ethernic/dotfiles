@@ -1,0 +1,39 @@
+! -----------
+! Rofi color theme
+! -----------
+
+rofi.color-enabled:true
+rofi.color-window: #393939, #393939, #268bd2
+rofi.color-normal: #393939, #ffffff, #2c2c2c, #268bd2, #ffffff
+rofi.color-active: #393939, #268bd2, #2c2c2c, #268bd2, #205171
+rofi.color-urgent: #393939, #f3843d, #2c2c2c, #268bd2, #ffc39c
+
+
+! -----------
+! URxvt
+! -----------
+
+URxvt.geometry:100x30
+URxvt.depth:32
+URxvt.background:rgba:0000/0000/0000/bbbb
+URxvt.foreground:white
+URxvt.font:xft:Liberation Mono:pixelsize=16:antialias=true
+URxvt.inheritPixmap:false
+URxvt.xftAntialias:true
+URxvt.transparent:true
+URxvt.tintColor:black
+URxvt.fading:20
+URxvt.fadeColor: #453e40
+URxvt.perl-ext-common:default,matcher,tabbed
+URxvt.url-launcher:/usr/bin/firefox
+URxvt.matcher.button:1
+URxvt.scrollBar:false
+URxvt.termName:rxvt
+URxvt.tabbed.tabbar-fg: 15
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 11
+URxvt.tabbed.tab-bg: 8
+URxvt.visualBell: true
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
